@@ -1,6 +1,6 @@
-# main.py - Original Version
+# main.py - Changed Version
 
-from utils import calculate_sum, get_user_data
+from utils import calculate_sum, get_user_data, log_event # Added log_event
 
 def run_application():
     result = calculate_sum(10, 5)
@@ -8,6 +8,10 @@ def run_application():
 
     user = get_user_data(123)
     print(f"User data: {user}")
+
+    # TODO: Add more comprehensive logging here
+    log_event("ApplicationStart", {"version": "1.0"})
+
 
 if __name__ == "__main__":
     run_application()
