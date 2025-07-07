@@ -1,4 +1,4 @@
-# main.py - 
+# main.py
 
 from utils import calculate_sum, get_user_data, log_event # Added log_event
 
@@ -9,7 +9,6 @@ def run_application():
     user = get_user_data(123)
     print(f"User data: {user}")
 
-    # TODO: Add more comprehensive logging here
     log_event("ApplicationStart", {"version": "1.0"})
 
 
