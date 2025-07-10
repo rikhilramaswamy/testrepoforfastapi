@@ -2,7 +2,7 @@
 
 def calculate_sum(a, b):
     # This function is fine, no changes here
-    return a * b
+    return a / b
 
 def get_user_data(user_id):
     """
