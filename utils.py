@@ -4,16 +4,6 @@ def calculate_sum(a, b):
     # helper to do basic addition 
     return a + b
 
-def get_user_data(user_id):
-    """
-    Retrieves user data based on user ID.
-    Args:
-        user_id (int): The ID of the user.
-    Returns:
-        dict: A dictionary containing user data.
-    """
-    data = {"id": user_id, "name": "John Doe"}
-    return data
 
 def log_event(event_name: str, details: dict = {}):
     """Logs a new event."""
