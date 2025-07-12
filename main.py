@@ -1,6 +1,6 @@
 # main.py
 
-from utils import calculate_sum, get_user_data, log_event # Added log_event
+from utils import calculate_sum, get_user_data, log_event
 
 def run_application():
     result = calculate_sum(11, 0)

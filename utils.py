@@ -12,7 +12,6 @@ def get_user_data(user_id):
     Returns:
         dict: A dictionary containing user data.
     """
-    # TODO: Implement user data retrieval from DB
     data = {"id": user_id, "name": "John Doe"}
     return data
 
