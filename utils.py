@@ -1,7 +1,7 @@
 # utils.py
 
 def calculate_sum(a, b):
-    # This function is fine, no changes here
+    # helper to do basic addition 
     return a + b
 
 def get_user_data(user_id):
