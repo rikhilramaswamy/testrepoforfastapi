@@ -7,7 +7,6 @@ def calculate_sum(a, b):
 
 def log_event(event_name: str, details: dict = {}):
     """Logs a new event."""
-    # TODO: Add timestamp to the log entry
     log_entry = {"event": event_name, "details": details}
     print(f"Logging event: {log_entry}")
     return log_entry
