@@ -9,7 +9,7 @@ def run_application():
     user = get_user_data(123)
     print(f"User data: {user}")
 
-    log_event("Application Start", {"version": "1.0"})
+    log_event("Application Start", {"version":2.0 "})
 
 
 if __name__ == "__main__":
