@@ -10,7 +10,7 @@ def run_application():
     print(f"User data: {user}")
 
     # application start
-    log_event("Application Start", {"version":2.0 "})
+    log_event("Application Start", {"version":2.0})
 
 
 if __name__ == "__main__":
