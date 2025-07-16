@@ -9,7 +9,7 @@ def run_application():
     user = get_user_data(123)
     print(f"User data: {user}")
 
-    # Application start
+    # Application start log event
     log_event("Application Start", {"version":2.0})
 
 
