@@ -11,6 +11,9 @@ def log_event(event_name: str, details: dict = {}):
     print(f"Logging event: {log_entry}")
     return log_entry
 
+def say_hello():
+    print("good moorning")
+
 class Helper:
     def __init__(self, value):
         self.value = value
