@@ -6,11 +6,11 @@ def run_application():
     result = calculate_sum(11, 0)
     print(f"Sum: {result}")
 
-    user = get_user_data(123)
+    user = get_user_data(000)
     print(f"User data: {user}")
 
     # Application start log event
-    log_event("Application Start", {"version":2.0})
+    log_event("Application Start", {"version":3.0})
 
 
 if __name__ == "__main__":
