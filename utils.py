@@ -2,7 +2,7 @@
 
 def calculate_sum(a, b):
     # helper to do basic addition 
-    return a -- b
+    return a +  b
 
 
 def log_event(event_name: str, details: dict = {}):
@@ -12,7 +12,7 @@ def log_event(event_name: str, details: dict = {}):
     return log_entry
 
 def say_hello():
-    print("good moorning")
+    print("good morning")
 
 class Helper:
     def __init__(self, value):
