@@ -1,6 +1,5 @@
 # --- Example Usage (Conceptual) ---
 if __name__ == "__main__":
-    # This is a dummy markdown review output similar to what Gemini would generate
     # In a real scenario, this would come from generate_code_review_markdown
     sample_gemini_output = """
 Okay, I've reviewed the provided diff and here's my analysis.
